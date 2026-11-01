@@ -1,0 +1,39 @@
+{
+  "model": "/kaggle/input/models/google/gemma-4/transformers/gemma-4-e2b-it/1",
+  "backend": "transformers",
+  "limit": 0,
+  "n_hunks": [
+    695,
+    556
+  ],
+  "lcs": {
+    "mean_A": 0.2812691224873861,
+    "mean_B": 0.2251619897138982,
+    "n_tasks": [
+      129,
+      156
+    ],
+    "diff_A_minus_B": 0.05610713277348792,
+    "p_one_sided": 0.007499250074992501,
+    "ci95": [
+      0.009988140317734984,
+      0.10292573829414947
+    ],
+    "role": "primary"
+  },
+  "exact5": {
+    "mean_A": 0.005812493276319503,
+    "mean_B": 0.0023148148148148147,
+    "n_tasks": [
+      129,
+      156
+    ],
+    "diff_A_minus_B": 0.0034976784615046884,
+    "p_one_sided": 0.16968303169683033,
+    "ci95": [
+      -0.002821047734928003,
+      0.011229939591921392
+    ],
+    "role": "primary (exact-match)"
+  }
+}
